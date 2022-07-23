@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex mx-auto">
+                <a href="../"><img src="../static/img/logo.png" style="width: 100px;"></a>
+                <input class="form-control me-2" type="search" placeholder="Tìm kiếm" aria-label="Search" style="width: 500px;">
+                <button class="btn btn-outline-danger" type="submit">Tìm kiếm</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../web_other/payment.html">Hướng thức thanh toán</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../web_other/insurance.html">Chính sách bảo hành</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../web_other/contact.html">Liên hệ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../web_other/signup.html">Đăng ký</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../web_other/login.html">Đăng nhập</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1614941955977!2d106.64744619999999!3d10.798940399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175294937b90939%3A0x9ce6633cbc49c722!2zNzggSG_DoG5nIEhvYSBUaMOhbSwgUGjGsOG7nW5nIDEyLCBUw6JuIELDrG5oLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1657958177316!5m2!1svi!2s" width="100%" ></iframe>
+                <p style="text-align: center"><strong>Địa chỉ 1:</strong> 78-80-82 Hoàng Hoa Thám, Phường 12, Quận Tân Bình.</p>
+            </div>
+            <div class="col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.371441678763!2d106.75722091447734!3d10.859327360628221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527dfdb9a969d%3A0x2733db35aa4da8ff!2zR2VhcnZuIDkwNSBLaGEgVuG6oW4gQ8Oibg!5e0!3m2!1svi!2s!4v1657958231823!5m2!1svi!2s" width="100%" ></iframe>
+                <p style="text-align: center"><strong>Địa chỉ 2:</strong> 905 Kha Vạn Cân, Phường Linh Tây, Thành phố Thủ Đức.</p>
+            </div>
+            <div class="col">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.755151412852!2d106.67191491447669!3d10.753344262560594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752efdc581552f%3A0x68c31b162c7f6a59!2zMTA4MSDEkC4gVHLhuqduIEjGsG5nIMSQ4bqhbywgUGjGsOG7nW5nIDUsIFF14bqtbiA1LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1657958284191!5m2!1svi!2s" width="100%%"></iframe>
+                <p style="text-align: center"><strong>Địa chỉ 3:</strong>  1081 - 1083 Trần Hưng Đạo, Phường 5, Quận 5.</p>
+            </div>
+        </div>
+        <div class="mt-3" style="text-align: center;">
+            <h4><strong>Liên hệ với chúng tôi khi bạn có thắc mắc</strong></h4>
+        </div>
+    
+        <div class="row row-cols-1 row-cols-md-3 g-4" style="margin-top:40px">
+            <div class="col" style="text-align: center;">
+                <h5 class="card-title"><strong>Chăm sóc khách hàng</strong></h5>
+                <h6>cskh@maytinhtientan.com</h6>
+                <h6>SĐT: 0963.033.400</h6>
+            </div>
+    
+            <div class="col"style="text-align: center;">
+                <h5 class="card-title"><strong>Kỹ thuật & Bảo hành</strong></h5>
+                <h6>kythuat@maytinhtientan.com</h6>
+                <h6>SĐT:  0975.248.626</h6>
+            </div>
+            
+            <div class="col"style="text-align: center;">
+                <h5 class="card-title"><strong>Thông tin tuyển dụng</strong></h5>
+                <h6>maytinhtientan@gmail.com</h6>
+                <h6>SĐT:   0392.282.888</h6>
+            </div>
+        </div>
+    
+        <div class="mt-3" style="text-align: center;padding-top: 50px;">
+            <h4><strong>Nhập thông tin liên hệ với chúng tôi</strong></h4>
+        </div>
+        <div class="container-fluid">
+            <form class="row g-3" style="padding-top: 70px" >
+                <div class="col-md-6" >
+                <input type="text" class="form-control" placeholder="Họ và tên (*)">
+                </div>
+            
+                <div class="col-md-6">
+                <input type="text" class="form-control" id="inputAddress" placeholder=" Địa chỉ (*)" >
+                </div>
+                <div class="col-12">   
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Tiêu đề (*)">
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Nội dung liên hệ(*)</label>
+                </div>
+    
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Gửi liên hệ</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+
+
+    <div class="container-fluid">
+        <footer class="row mt-5" style="background-color: #546ce8;">
+          <div class="col-md mt-4" style="margin-left: 50px;">
+            <h6 style="color: white">CÔNG TY TƯ NHÂN NGUYỄN PHÚC</h6>
+            <h6 style="color: white">EMAIL: nguyenkimphuc6.tdhl@gmail.com</h6>
+            <h6 style="color: white">HỆ THỐNG TỔNG ĐÀI MIỄN PHÍ: (Làm việc 08h00-21h00)</h6>
+            <ul>
+              <li><a href="#" style="color: white; text-decoration: none">Giới thiệu</a></li>
+              <li><a href="#" style="color: white; text-decoration: none">Tuyển dụng</a></li>
+              <li><a href="#" style="color: white; text-decoration: none">Tin tức</a></li>
+              <img src="../static/img/bocongthuong.png" width="350px" style="margin-left: 50px">
+            </ul>
+          </div>
+          <div class="col-md mt-4" style="margin-left: 50px">
+            <h6 style="color: white">HỆ THỐNG CỬA HÀNG:</h6>
+            <ul>
+              <li><a href="#" style="color: white; text-decoration: none">Địa chỉ 1: 78-80-82 Hoàng Hoa Thám, Phường 12, Quận Tân Bình.</a></li>
+              <li><a href="#" style="color: white; text-decoration: none">Địa chỉ 2: 905 Kha Vạn Cân, Phường Linh Tây, Thành phố Thủ Đức.</a></li>
+              <li><a href="#" style="color: white; text-decoration: none">Địa chỉ 3: 1081 - 1083 Trần Hưng Đạo, Phường 5, Quận 5.</a></li>
+            </ul>
+            <p style="color: white;">Laptop gaming, bàn phím cơ, chuột bảo hành chính hãng. Mua online <br>nhận nhiều ưu đãi hấp dẫn.</p>
+          </div>
+        </footer>
+    </div>
+</body>
+</html>
